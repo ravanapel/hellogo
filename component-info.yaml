@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hellogo
+  description: hellogo
+  annotations: 
+    github.com/project-slug: ravanapel/hellogo
+    backstage.io/github-actions-id: ravanapel/hellogo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ravanapel
